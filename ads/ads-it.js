@@ -26,7 +26,7 @@ window.I18N_IT = {
     'idea.k':'Gratis, senza impegno','idea.t1':'Mandaci il tuo prodotto.','idea.t2':'Ti mandiamo un’idea di ad.',
     'idea.p':'Dicci cosa vendi e dove fai pubblicità. Ti rispondiamo con un concept di ad animata pensata per il tuo brand, e un orario per una call se vuoi realizzarla.',
     'idea.l1':'Un hook e una scena, scritti per il tuo prodotto','idea.l2':'Lo stile visivo che useremmo e perché','idea.l3':'Risposta entro 1 giorno lavorativo',
-    'f.name':'Nome','f.email':'Email','f.link':'Link del negozio o sito','f.product':'Quale prodotto deve vendere l’ad?','f.budget':'Spesa ads mensile','f.b0':'Seleziona',
+    'f.name':'Nome','f.email':'Email','f.link':'Link del negozio o sito','f.product':'Quale prodotto deve vendere l’ad?','f.budget':'A che punto sei con le ads?','f.b0':'Seleziona','f.b1':'Non faccio ancora ads','f.b2':'Sto testando qualche ad','f.b3':'Faccio ads con regolarità','f.b4':'Sto scalando',
     'f.note':'Apre la tua app email con i dati già compilati. Oppure scrivi a hello@thinridge.com',
     'pr.t1':'Nessun listino.','pr.t2':'Una proposta a prezzo fisso.',
     'pr.p':'Ogni preventivo è costruito sulla tua azienda: il lavoro in sé, come funziona l’azienda, il volume e i tempi che ti servono. Dopo una prima call mandiamo un solo documento con scope, tempistiche e prezzo fisso.',

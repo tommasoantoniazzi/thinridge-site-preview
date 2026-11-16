@@ -95,6 +95,15 @@
     go(0);
   }
 
+  /* ---------- tabs ---------- */
+  document.querySelectorAll('[data-tabs]').forEach(box => {
+    const tabs = [...box.querySelectorAll('[data-tab]')], panels = [...box.querySelectorAll('[data-panel]')];
+    tabs.forEach(tb => tb.addEventListener('click', () => {
+      tabs.forEach(x => x.classList.toggle('on', x === tb));
+      panels.forEach(p => p.classList.toggle('on', p.dataset.panel === tb.dataset.tab));
+    }));
+  });
+
   /* ---------- forms -> mailto ---------- */
   document.querySelectorAll('form[data-mailto]').forEach(form => form.addEventListener('submit', e => {
     e.preventDefault();

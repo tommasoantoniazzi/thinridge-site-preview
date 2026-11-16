@@ -462,3 +462,49 @@ h3{font-weight:500;font-size:clamp(24px,2.2vw,32px);line-height:1.1;letter-spaci
 }
 @media (max-width:720px){.dots{gap:4px}.dots button{width:8px}.dots button.on{width:18px}.stage-ui{gap:10px}}
 @media (max-width:720px){.wire{display:none}.code{font-size:10.5px}}
+
+/* support widget */
+.widget{position:relative;z-index:1;width:min(420px,100%);border-radius:24px;overflow:hidden;background:rgba(17,14,26,.92);border:1px solid var(--line2);box-shadow:0 50px 100px -30px rgba(0,0,0,.9),0 0 100px -30px rgba(124,58,237,.75);backdrop-filter:blur(14px)}
+.w-head{display:flex;align-items:center;gap:12px;padding:16px 18px;background:linear-gradient(120deg,#7c3aed,#5b21b6)}
+.w-av{width:38px;height:38px;border-radius:12px;background:rgba(255,255,255,.16);display:grid;place-items:center;flex:none}
+.w-av img{width:24px}
+.w-head b{display:block;font-weight:600;font-size:15px}
+.w-head small{display:block;font-size:12px;color:rgba(255,255,255,.75)}
+.w-live{margin-left:auto;width:9px;height:9px;border-radius:50%;background:#4ade80;box-shadow:0 0 0 4px rgba(74,222,128,.2)}
+.w-body{padding:16px;display:flex;flex-direction:column;gap:10px;font-size:14px;min-height:360px}
+.w-row{display:flex;flex-direction:column;align-items:flex-start;gap:3px}
+.w-row.u{align-items:flex-end}
+.w-row .msg{max-width:86%}
+.w-time{font-size:9.5px;color:var(--muted);letter-spacing:.04em;text-transform:none}
+.w-chips{display:flex;flex-wrap:wrap;gap:6px}
+.w-chips span{font-size:12.5px;padding:6px 11px;border-radius:999px;border:1px solid rgba(167,139,250,.45);color:var(--v3);background:rgba(124,58,237,.1)}
+.w-hand{align-self:stretch;display:flex;flex-direction:column;gap:3px;padding:10px 12px;border-radius:12px;border:1px dashed rgba(167,139,250,.5);background:rgba(124,58,237,.08);font-size:13px;color:#e4e4ea}
+.w-hand .mono{font-size:10px;color:var(--v2)}
+.w-hand .mono::before{content:"→ "}
+.w-input{display:flex;align-items:center;gap:10px;margin:0 14px 14px;padding:6px 6px 6px 14px;border-radius:999px;border:1px solid var(--line2);background:rgba(255,255,255,.04);color:var(--muted);font-size:13.5px}
+.w-input i{margin-left:auto;width:34px;height:34px;border-radius:50%;background:var(--v);display:grid;place-items:center;color:#fff}
+.w-input svg{width:15px;height:15px}
+.ch-ic{display:flex;gap:6px;margin:4px 0 6px;color:var(--v3)}
+.ch-ic svg{width:18px;height:18px}
+/* examples tabs */
+.examples{display:grid;grid-template-columns:260px 1fr;gap:18px;align-items:start}
+.tabs{display:flex;flex-direction:column;gap:6px}
+.tab{text-align:left;padding:14px 18px;border-radius:14px;border:1px solid var(--line);background:rgba(255,255,255,.02);font-size:16px;color:#cfcfd6;transition:background .3s,border-color .3s,color .3s}
+.tab:hover{border-color:rgba(167,139,250,.4)}
+.tab.on{background:rgba(124,58,237,.18);border-color:rgba(167,139,250,.6);color:#fff}
+.ex-panel{display:none;border-radius:22px;border:1px solid var(--line2);background:rgba(17,14,26,.8);overflow:hidden}
+.ex-panel.on{display:block;animation:seqIn .5s var(--ease)}
+.ex-head{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:16px 20px;border-bottom:1px solid var(--line)}
+.ch-tag{display:inline-flex;align-items:center;gap:6px;color:var(--v3);font-size:10.5px}
+.ch-tag svg{width:14px;height:14px}
+.ex-body{padding:20px;display:flex;flex-direction:column;gap:12px;font-size:15px}
+.ex-body .msg{max-width:72%}
+.ex-foot{display:flex;gap:12px;align-items:baseline;flex-wrap:wrap;padding:14px 20px;border-top:1px solid var(--line);color:#cfcfd6;font-size:14px}
+.ex-foot .mono{color:var(--v2);font-size:10.5px}
+@media (max-width:1080px){.examples{grid-template-columns:1fr}.tabs{flex-direction:row;flex-wrap:wrap}.tab{padding:10px 14px;font-size:14px}}
+@media (max-width:720px){.ex-body .msg{max-width:88%}.ex-body{font-size:14px;padding:14px}.w-body{min-height:0;font-size:13.5px}.fc-ch{display:none}}
+.w-ch{display:flex;align-items:center;gap:10px;padding:10px 16px 14px;border-top:1px solid var(--line);font-size:12px;color:var(--muted)}
+.w-ch .ch-ic{margin:0}.w-ch .ch-ic svg{width:15px;height:15px}
+@media (max-width:720px){.w-opt{display:none!important}}
+.visual .illus{bottom:-26px}
+@media (max-width:720px){.ph-hero .visual{margin-bottom:40px}}
