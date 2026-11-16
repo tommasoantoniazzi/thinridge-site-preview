@@ -3,275 +3,108 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-<title>Thinridge — AI animated video ads & static ads</title>
-<meta name="description" content="Thinridge is an AI video studio: animated video ads, static ads and the AI pipelines that keep new creatives coming every month." />
+<title>Thinridge — AI, put to work inside your business</title>
+<meta name="description" content="Thinridge implements AI inside companies: custom AI agents, customer support chat, Claude mentorship for architects and engineers, and an AI ads studio." />
 <meta name="theme-color" content="#07060b" />
-<meta property="og:title" content="Thinridge — Animated ads that stop the scroll" />
-<meta property="og:description" content="AI animated video ads and static ads, made with the latest AI video tools and finished by hand." />
+<meta property="og:title" content="Thinridge — AI, put to work inside your business" />
+<meta property="og:description" content="Thinridge implements AI inside companies: custom AI agents, customer support chat, Claude mentorship for architects and engineers, and an AI ads studio." />
 <meta property="og:image" content="assets/og.jpg" />
 <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600&family=Instrument+Serif:ital@0;1&family=Roboto+Mono:wght@400;500&display=swap" rel="stylesheet" />
-<link rel="preload" as="image" href="assets/reel-clay.jpg" />
 <link rel="stylesheet" href="styles.css" />
 </head>
-<body>
+<body data-title-it="Thinridge — L’AI, messa al lavoro dentro la tua azienda">
 <div class="grain" aria-hidden="true"></div>
-
 <header class="nav" id="nav">
-  <a class="brand" href="#top" aria-label="Thinridge home">
-    <img src="assets/mark-white.png" alt="" width="34" height="19" />
-    <span>Thinridge</span>
-  </a>
+  <a class="brand" href="" aria-label="Thinridge home"><img src="assets/mark-white.png" alt="" width="34" height="19" /><span>Thinridge</span></a>
   <nav class="nav-links" aria-label="Main">
-    <a href="#work" data-i18n="nav.work">Work</a>
-    <a href="#services" data-i18n="nav.services">Services</a>
-    <a href="#process" data-i18n="nav.process">Process</a>
-    <a href="#pricing" data-i18n="nav.pricing">Pricing</a>
+    <div class="dd"><button class="dd-btn" aria-expanded="false" aria-haspopup="true"><span data-it="Servizi">Services</span><svg viewBox="0 0 10 10"><path d="M2 3.5 5 6.5 8 3.5" fill="none" stroke="currentColor" stroke-width="1.4"/></svg></button>
+      <div class="dd-panel"><a href="ads/"><span class="dd-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="5" width="18" height="14" rx="3"/><path d="M10 9.2v5.6l4.8-2.8z" fill="currentColor"/></svg></span><span><b data-it="Ads Studio">Ads Studio</b><small data-it="Video ads animate e static ads con l’AI">AI animated video ads and static ads</small></span></a><a href="ai-agents/"><span class="dd-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="3"/><circle cx="4.5" cy="5" r="1.8"/><circle cx="19.5" cy="5" r="1.8"/><circle cx="4.5" cy="19" r="1.8"/><circle cx="19.5" cy="19" r="1.8"/><path d="M6 6.3 9.8 10M18 6.3 14.2 10M6 17.7l3.8-3.7M18 17.7l-3.8-3.7"/></svg></span><span><b data-it="AI Agents">AI Agents</b><small data-it="Agenti su misura e automazione per la tua azienda">Custom agents and automation for your company</small></span></a><a href="support-agent/"><span class="dd-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 5h16v11H9l-5 4z"/><path d="M8 9.5h8M8 12.5h5"/></svg></span><span><b data-it="Agente per il customer support">Customer support agent</b><small data-it="Un agente chat AI che risponde dalla tua conoscenza">An AI chat agent that answers from your knowledge</small></span></a><a href="claude-for-architects/"><span class="dd-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 21h18M5 21V10l7-5 7 5v11M9 21v-6h6v6"/></svg></span><span><b data-it="Claude mentorship per architetti">Claude mentorship for architects</b><small data-it="Insegniamo agli studi di architettura a lavorare con Claude">Teaching architecture studios to work with Claude</small></span></a><a href="claude-for-engineering/"><span class="dd-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 2.8 20 7.4v9.2L12 21.2 4 16.6V7.4z"/><path d="M4 7.4 12 12l8-4.6M12 12v9.2"/></svg></span><span><b data-it="Claude mentorship per l’ingegneria 3D">Claude mentorship for 3D engineering</b><small data-it="Claude nei flussi di lavoro 3D e strutturali">Claude for 3D and structural engineering workflows</small></span></a></div></div>
+    <a href="#approach" data-it="Come lavoriamo">How we work</a><a href="#contact" data-it="Contatti">Contact</a>
   </nav>
   <div class="nav-right">
-    <div class="lang" role="group" aria-label="Language">
-      <button data-lang="en" class="on">EN</button><button data-lang="it">IT</button>
-    </div>
-    <a class="btn btn-sm btn-primary" href="#idea" data-i18n="cta.idea_short">Free ad idea</a>
+    <div class="lang" role="group" aria-label="Language"><button data-lang="en" class="on">EN</button><button data-lang="it">IT</button></div>
+    <a class="btn btn-sm btn-primary" href="#contact" data-it="Prenota una call">Book a call</a>
     <button class="burger" aria-label="Menu" aria-expanded="false"><span></span><span></span></button>
   </div>
 </header>
 <div class="mobile-menu" id="mobileMenu">
-  <a href="#work" data-i18n="nav.work">Work</a>
-  <a href="#services" data-i18n="nav.services">Services</a>
-  <a href="#process" data-i18n="nav.process">Process</a>
-  <a href="#pricing" data-i18n="nav.pricing">Pricing</a>
-  <a href="#idea" class="btn btn-primary" data-i18n="cta.idea">Get a free ad idea</a>
+  <a href="">Home</a>
+  <div class="mm-sub"><span class="mono" data-it="Servizi">Services</span><a href="ads/" data-it="Ads Studio">Ads Studio</a><a href="ai-agents/" data-it="AI Agents">AI Agents</a><a href="support-agent/" data-it="Agente per il customer support">Customer support agent</a><a href="claude-for-architects/" data-it="Claude mentorship per architetti">Claude mentorship for architects</a><a href="claude-for-engineering/" data-it="Claude mentorship per l’ingegneria 3D">Claude mentorship for 3D engineering</a></div>
+  <a href="#approach" data-it="Come lavoriamo">How we work</a><a href="#contact" data-it="Contatti">Contact</a>
+  <a href="#contact" class="btn btn-primary" data-it="Prenota una call">Book a call</a>
 </div>
-
-<main id="top">
-<!-- ================= HERO ================= -->
-<section class="hero">
-  <div class="hero-bg" aria-hidden="true">
-    <div class="glow g1"></div><div class="glow g2"></div><div class="glow g3"></div>
-    <div class="gridlines"></div>
-    <img class="ridge" src="assets/mark-violet.png" alt="" />
-  </div>
-
+<main id="top"><section class="hero ph-hero">
+  <div class="hero-bg" aria-hidden="true"><div class="glow g1"></div><div class="glow g2"></div><div class="glow g3"></div><div class="gridlines"></div><img class="ridge" src="assets/mark-violet.png" alt="" /></div>
   <div class="hero-inner">
     <div class="hero-copy">
-      <p class="eyebrow reveal"><span class="dot"></span><span data-i18n="hero.eyebrow">AI video studio · Animated &amp; static ads</span></p>
-      <h1 class="hero-title">
-        <span class="line"><span data-i18n="hero.t1">Animated ads</span></span>
-        <span class="line"><span data-i18n="hero.t2">that</span> <em class="serif swap" id="swapWord">stop</em></span>
-        <span class="line"><span data-i18n="hero.t3">the scroll.</span></span>
-      </h1>
-      <p class="hero-sub reveal" data-i18n="hero.sub">We turn your product into animated video ads and static ads, in any style: Pixar-like, claymation, wool-knit, 3D. Made with the latest AI video tools, finished by hand.</p>
-      <div class="hero-ctas reveal">
-        <a class="btn btn-primary btn-lg" href="#idea"><span data-i18n="cta.idea">Get a free ad idea</span><svg viewBox="0 0 14 14" aria-hidden="true"><path d="M2 7h9M7.5 3.5 11 7l-3.5 3.5" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></a>
-        <a class="btn btn-ghost btn-lg" href="#work"><svg viewBox="0 0 14 14" aria-hidden="true"><path d="M4 2.5v9l7.5-4.5z" fill="currentColor"/></svg><span data-i18n="cta.work">See the work</span></a>
-      </div>
-      <ul class="hero-facts reveal">
-        <li><b data-i18n="fact.1a">3–7 days</b><span data-i18n="fact.1b">from approved storyboard to final ad</span></li>
-        <li><b data-i18n="fact.2a">Fixed price</b><span data-i18n="fact.2b">one clear proposal, no packages</span></li>
-        <li><b data-i18n="fact.3a">100% yours</b><span data-i18n="fact.3b">use the files on any channel</span></li>
-      </ul>
+      
+      <p class="eyebrow reveal"><span class="dot"></span><span data-it="Azienda AI · Agenti, mentorship, video">AI company · Agents, mentorship, video</span></p>
+      <h1 class="hero-title"><span class="line"><span data-it="L’AI, messa al lavoro">AI, put to work</span></span><span class="line"><em class="serif" data-it="dentro">inside</em> <span data-it="la tua">your</span></span><span class="line"><span data-it="azienda.">business.</span></span></h1>
+      <p class="hero-sub reveal" data-it="Thinridge porta l’AI dentro le aziende: agenti su misura, una chat per il customer support, mentorship pratica su Claude per architetti e ingegneri, e uno studio specializzato in video ads con l’AI.">Thinridge implements AI inside companies: custom agents, a customer support chat, hands-on Claude mentorship for architects and engineers, and a studio specialised in AI video ads.</p>
+      <div class="hero-ctas reveal"><a class="btn btn-primary btn-lg" href="#contact"><span data-it="Prenota una call">Book a call</span><svg viewBox="0 0 14 14" aria-hidden="true"><path d="M2 7h9M7.5 3.5 11 7l-3.5 3.5" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></a><a class="btn btn-ghost btn-lg" href="#services"><span data-it="Scopri i servizi">Explore services</span></a></div>
+      <ul class="hero-facts reveal"><li><b data-it="Su misura">Tailored</b><span data-it="ogni progetto parte da come lavorate">every project starts from how you work</span></li><li><b data-it="Proposta fissa">Fixed proposal</b><span data-it="scope, tempi e prezzo">scope, timeline and price</span></li><li><b data-it="Fatto per essere usato">Built to be used</b><span data-it="restiamo finché il team lo usa">we stay until your team uses it</span></li></ul>
     </div>
-
-    <div class="hero-stage" id="stage" aria-label="Showreel">
-      <div class="phones">
-        <figure class="phone" data-label="Pixar style" data-i18n-label="style.pixar">
-          <video muted loop playsinline preload="auto" poster="assets/reel-clay.jpg" src="assets/reel-clay.mp4"></video>
-        </figure>
-        <figure class="phone" data-label="Claymation" data-i18n-label="style.clay">
-          <video muted loop playsinline preload="metadata" poster="assets/reel-3d.jpg" src="assets/reel-3d.mp4"></video>
-        </figure>
-        <figure class="phone" data-label="Wool knitted" data-i18n-label="style.wool">
-          <video muted loop playsinline preload="metadata" poster="assets/reel-wool.jpg" src="assets/reel-wool.mp4"></video>
-        </figure>
-        <figure class="phone" data-label="3D visual ad" data-i18n-label="style.3d">
-          <video muted loop playsinline preload="metadata" poster="assets/reel-pixar.jpg" src="assets/reel-pixar.mp4"></video>
-        </figure>
-      </div>
-      <div class="stage-ui">
-        <div class="style-pill"><span class="rec"></span><span class="mono" id="styleLabel">Pixar style</span></div>
-        <div class="dots" id="dots"></div>
-      </div>
-      <div class="float-tag t1 mono"><span data-i18n="tag.hook">Hook</span> · 0:00–0:02</div>
-      <div class="float-tag t2 mono"><span data-i18n="tag.format">9:16 · ready for Reels &amp; TikTok</span></div>
-    </div>
+    <div class="visual reveal"><div class="orbit" style="--R:min(236px,40vw)">
+  <div class="ring r1"></div>
+  <div class="spin rev"><div class="ring r2"></div><span class="dotp" style="left:14%;top:50%"></span><span class="dotp" style="right:14%;top:40%"></span></div>
+  <div class="ring r3"></div>
+  <div class="core"><img src="assets/mark-white.png" alt="" /></div>
+  <div class="spin"><div class="sat" style="transform:rotate(-90.0deg) translateX(var(--R)) rotate(90.0deg)"><div class="chip-o"><a href="ads/"><span class="dd-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="5" width="18" height="14" rx="3"/><path d="M10 9.2v5.6l4.8-2.8z" fill="currentColor"/></svg></span><span data-it="Ads Studio">Ads Studio</span></a></div></div><div class="sat" style="transform:rotate(-18.0deg) translateX(var(--R)) rotate(18.0deg)"><div class="chip-o"><a href="ai-agents/"><span class="dd-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="3"/><circle cx="4.5" cy="5" r="1.8"/><circle cx="19.5" cy="5" r="1.8"/><circle cx="4.5" cy="19" r="1.8"/><circle cx="19.5" cy="19" r="1.8"/><path d="M6 6.3 9.8 10M18 6.3 14.2 10M6 17.7l3.8-3.7M18 17.7l-3.8-3.7"/></svg></span><span data-it="AI Agents">AI Agents</span></a></div></div><div class="sat" style="transform:rotate(54.0deg) translateX(var(--R)) rotate(-54.0deg)"><div class="chip-o"><a href="support-agent/"><span class="dd-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 5h16v11H9l-5 4z"/><path d="M8 9.5h8M8 12.5h5"/></svg></span><span data-it="Agente di supporto">Support agent</span></a></div></div><div class="sat" style="transform:rotate(126.0deg) translateX(var(--R)) rotate(-126.0deg)"><div class="chip-o"><a href="claude-for-architects/"><span class="dd-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 21h18M5 21V10l7-5 7 5v11M9 21v-6h6v6"/></svg></span><span data-it="Claude · Architetti">Claude · Architects</span></a></div></div><div class="sat" style="transform:rotate(198.0deg) translateX(var(--R)) rotate(-198.0deg)"><div class="chip-o"><a href="claude-for-engineering/"><span class="dd-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 2.8 20 7.4v9.2L12 21.2 4 16.6V7.4z"/><path d="M4 7.4 12 12l8-4.6M12 12v9.2"/></svg></span><span data-it="Claude · Ingegneria 3D">Claude · 3D engineering</span></a></div></div></div>
+</div></div>
   </div>
-
-  <div class="hero-bottom">
-    <span class="mono muted" data-i18n="hero.who">Who we work with</span>
-    <div class="marquee"><div class="track">
-      <span data-i18n="seg.1">TikTok Shop brands</span><i>✦</i><span data-i18n="seg.2">DTC brands</span><i>✦</i><span data-i18n="seg.3">Dropshipping operators</span><i>✦</i><span data-i18n="seg.4">Manufacturers</span><i>✦</i><span data-i18n="seg.1">TikTok Shop brands</span><i>✦</i><span data-i18n="seg.2">DTC brands</span><i>✦</i><span data-i18n="seg.3">Dropshipping operators</span><i>✦</i><span data-i18n="seg.4">Manufacturers</span><i>✦</i>
-      <span data-i18n="seg.1">TikTok Shop brands</span><i>✦</i><span data-i18n="seg.2">DTC brands</span><i>✦</i><span data-i18n="seg.3">Dropshipping operators</span><i>✦</i><span data-i18n="seg.4">Manufacturers</span><i>✦</i><span data-i18n="seg.1">TikTok Shop brands</span><i>✦</i><span data-i18n="seg.2">DTC brands</span><i>✦</i><span data-i18n="seg.3">Dropshipping operators</span><i>✦</i><span data-i18n="seg.4">Manufacturers</span><i>✦</i>
-    </div></div>
-  </div>
-</section>
-
-<!-- ================= WORK ================= -->
-<section class="section" id="work">
-  <div class="wrap">
-    <div class="sec-head">
-      <p class="kicker mono">01 — <span data-i18n="nav.work">Work</span></p>
-      <h2 class="reveal"><span data-i18n="work.t1">One product.</span> <em class="serif" data-i18n="work.t2">Any style.</em></h2>
-      <p class="lead reveal" data-i18n="work.sub">Recent video work, organised by visual style. Hover or tap to play.</p>
-    </div>
-    <div class="reels">
-      <article class="reel reveal"><video muted loop playsinline preload="none" poster="assets/reel-clay.jpg" src="assets/reel-clay.mp4"></video><div class="reel-cap"><span class="mono">01</span><b data-i18n="style.pixar">Pixar style</b></div></article>
-      <article class="reel reveal"><video muted loop playsinline preload="none" poster="assets/reel-wool.jpg" src="assets/reel-wool.mp4"></video><div class="reel-cap"><span class="mono">02</span><b data-i18n="style.wool">Wool knitted</b></div></article>
-      <article class="reel reveal"><video muted loop playsinline preload="none" poster="assets/reel-3d.jpg" src="assets/reel-3d.mp4"></video><div class="reel-cap"><span class="mono">03</span><b data-i18n="style.clay">Claymation</b></div></article>
-      <article class="reel reveal"><video muted loop playsinline preload="none" poster="assets/reel-pixar.jpg" src="assets/reel-pixar.mp4"></video><div class="reel-cap"><span class="mono">04</span><b data-i18n="style.3d">3D visual ad</b></div></article>
-    </div>
-
-    <article class="spaces reveal">
-      <div class="spaces-media"><video muted loop playsinline preload="none" poster="assets/space-walkthrough.jpg" src="assets/space-walkthrough.mp4"></video><span class="mono chip" data-i18n="spaces.chip">POV walkthrough · Apartment in Venice</span></div>
-      <div class="spaces-copy">
-        <p class="kicker mono" data-i18n="spaces.k">Spaces</p>
-        <h3 data-i18n="spaces.t">Walkthroughs and 3D renders for real spaces.</h3>
-        <p data-i18n="spaces.p">POV walkthroughs and cinematic 3D renders that show an apartment, hotel room or rental before anyone steps inside. Made for Airbnb listings, hotels, real estate and short-term rentals.</p>
-      </div>
-    </article>
-  </div>
-</section>
-
-<!-- ================= SERVICES ================= -->
-<section class="section" id="services">
-  <div class="wrap">
-    <div class="sec-head">
-      <p class="kicker mono">02 — <span data-i18n="nav.services">Services</span></p>
-      <h2 class="reveal"><span data-i18n="svc.t1">Creative that sells,</span> <em class="serif" data-i18n="svc.t2">made at the speed you test.</em></h2>
-    </div>
-    <div class="bento">
-      <article class="card c-video reveal">
-        <p class="kicker mono" data-i18n="svc.v.k">Core service</p>
-        <h3 data-i18n="svc.v.t">AI animated video ads</h3>
-        <p data-i18n="svc.v.p">Animated ads built around your product, message, audience and campaign goal. Faster than a traditional shoot, with more variations to test.</p>
-        <ul class="formats">
-          <li><span class="mono">01</span><span data-i18n="fmt.1">Animated ads for paid social</span></li>
-          <li><span class="mono">02</span><span data-i18n="fmt.2">Animated product videos</span></li>
-          <li><span class="mono">03</span><span data-i18n="fmt.3">Cinematic AI scenes</span></li>
-          <li><span class="mono">04</span><span data-i18n="fmt.4">UGC-style video ads</span></li>
-        </ul>
-      </article>
-      <article class="card c-static reveal">
-        <p class="kicker mono" data-i18n="svc.s.k">Alongside every video</p>
-        <h3 data-i18n="svc.s.t">Static ads</h3>
-        <p data-i18n="svc.s.p">Image ads for feed, stories and carousels, built from the same characters, scenes and hooks as your videos, so every placement looks like one campaign.</p>
-        <div class="static-stack" aria-hidden="true">
-          <img src="assets/reel-wool.jpg" alt="" loading="lazy" /><img src="assets/reel-3d.jpg" alt="" loading="lazy" /><img src="assets/reel-clay.jpg" alt="" loading="lazy" />
-        </div>
-      </article>
-      <article class="card c-pipe reveal">
-        <p class="kicker mono" data-i18n="svc.p.k">For brands that need volume</p>
-        <h3 data-i18n="svc.p.t">Monthly creative pipeline</h3>
-        <p data-i18n="svc.p.p">A repeatable system that ships new ads and variations every month without starting from zero: brand-consistent templates, creative variations for testing.</p>
-      </article>
-      <article class="card c-ai reveal">
-        <p class="kicker mono" data-i18n="svc.a.k">Also from Thinridge</p>
-        <h3 data-i18n="svc.a.t">AI solutions for companies</h3>
-        <p data-i18n="svc.a.p">Custom AI agents, process automation and assistants on your own knowledge, from first audit to daily use.</p>
-      </article>
-    </div>
-    <div class="tools reveal">
-      <span class="mono muted" data-i18n="tools">Tools we use</span>
-      <ul><li>Kling</li><li>Veo</li><li>Seedance</li><li>Runway</li><li>Sora</li><li>Pika</li></ul>
-    </div>
-  </div>
-</section>
-
-<!-- ================= PROCESS ================= -->
-<section class="section" id="process">
-  <div class="wrap">
-    <div class="sec-head">
-      <p class="kicker mono">03 — <span data-i18n="nav.process">Process</span></p>
-      <h2 class="reveal"><span data-i18n="proc.t1">From idea</span> <em class="serif" data-i18n="proc.t2">to finished ad.</em></h2>
-    </div>
-    <ol class="steps">
-      <li class="reveal"><span class="num serif">01</span><h4 data-i18n="st.1t">Strategy</h4><p data-i18n="st.1p">Product, audience, offer and visual direction.</p></li>
-      <li class="reveal"><span class="num serif">02</span><h4 data-i18n="st.2t">Script &amp; storyboard</h4><p data-i18n="st.2p">Hooks, scripts, scenes and motion concepts, approved by you.</p></li>
-      <li class="reveal"><span class="num serif">03</span><h4 data-i18n="st.3t">AI production</h4><p data-i18n="st.3p">Animated scenes, product visuals and static frames.</p></li>
-      <li class="reveal"><span class="num serif">04</span><h4 data-i18n="st.4t">Edit &amp; deliver</h4><p data-i18n="st.4p">Polished, formatted for every placement, ready to publish.</p></li>
-    </ol>
-    <p class="steps-note mono reveal" data-i18n="proc.note">Most short-form video ads ship in 3 to 7 business days from the approved storyboard.</p>
-  </div>
-</section>
-
-<!-- ================= FREE IDEA ================= -->
-<section class="section" id="idea">
+  <div class="hero-bottom"><span class="mono muted" data-it="Cosa facciamo">What we do</span><div class="marquee"><div class="track"><span data-it="Agenti AI">AI agents</span><i>✦</i><span data-it="Automazione dei processi">Process automation</span><i>✦</i><span data-it="Chat per il customer support">Customer support chat</span><i>✦</i><span data-it="Claude mentorship">Claude mentorship</span><i>✦</i><span data-it="Video ads con l’AI">AI video ads</span><i>✦</i><span data-it="Static ads">Static ads</span><i>✦</i><span data-it="Agenti AI">AI agents</span><i>✦</i><span data-it="Automazione dei processi">Process automation</span><i>✦</i><span data-it="Chat per il customer support">Customer support chat</span><i>✦</i><span data-it="Claude mentorship">Claude mentorship</span><i>✦</i><span data-it="Video ads con l’AI">AI video ads</span><i>✦</i><span data-it="Static ads">Static ads</span><i>✦</i><span data-it="Agenti AI">AI agents</span><i>✦</i><span data-it="Automazione dei processi">Process automation</span><i>✦</i><span data-it="Chat per il customer support">Customer support chat</span><i>✦</i><span data-it="Claude mentorship">Claude mentorship</span><i>✦</i><span data-it="Video ads con l’AI">AI video ads</span><i>✦</i><span data-it="Static ads">Static ads</span><i>✦</i><span data-it="Agenti AI">AI agents</span><i>✦</i><span data-it="Automazione dei processi">Process automation</span><i>✦</i><span data-it="Chat per il customer support">Customer support chat</span><i>✦</i><span data-it="Claude mentorship">Claude mentorship</span><i>✦</i><span data-it="Video ads con l’AI">AI video ads</span><i>✦</i><span data-it="Static ads">Static ads</span><i>✦</i></div></div></div>
+</section><section class="section" id="services"><div class="wrap"><div class="sec-head"><p class="kicker mono">01 — <span data-it="Servizi">Services</span></p><h2 class="reveal"><span data-it="Cinque modi per">Five ways to</span> <em class="serif"><span data-it="mettere l’AI al lavoro.">put AI to work.</span></em></h2><p class="lead reveal" data-it="Scegli da dove partire. Ogni servizio è su misura per la tua azienda, con una sola proposta a prezzo fisso.">Pick where to start. Every service is tailored to your company and priced with one fixed proposal.</p></div><div class="svc-grid"><a class="svc svc-a reveal" href="ads/"><div class="svc-copy"><span class="svc-num">01 · Ads Studio</span>
+<h3 data-it="Video ads animate e static ads, fatte con l’AI.">AI animated video ads and static ads.</h3>
+<p data-it="Ads animate in qualsiasi stile, dallo stile Pixar alla claymation al 3D, fatte con i migliori strumenti video AI e rifinite a mano. Static ads costruite dalle stesse scene.">Animated ads in any style, from Pixar-like to claymation and 3D, made with the latest AI video tools and finished by hand. Static ads built from the same scenes.</p>
+<div class="tags"><span data-it="Ads animate">Animated ads</span><span data-it="Static ads">Static ads</span><span data-it="Video prodotto">Product videos</span><span data-it="Spazi">Spaces</span></div>
+<span class="go"><i>→</i><span data-it="Apri l’Ads Studio">Open the Ads Studio</span></span></div>
+<div class="svc-media vid-auto"><video muted loop playsinline preload="none" poster="assets/reel-clay.jpg" src="assets/reel-clay.mp4"></video></div></a><a class="svc svc-b reveal" href="ai-agents/"><span class="big-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="3"/><circle cx="4.5" cy="5" r="1.8"/><circle cx="19.5" cy="5" r="1.8"/><circle cx="4.5" cy="19" r="1.8"/><circle cx="19.5" cy="19" r="1.8"/><path d="M6 6.3 9.8 10M18 6.3 14.2 10M6 17.7l3.8-3.7M18 17.7l-3.8-3.7"/></svg></span><span class="svc-num">02 · <span data-it="AI Agents">AI Agents</span></span><h3 data-it="Agenti su misura che portano a termine il lavoro.">Custom agents that carry a task through.</h3><p data-it="Agenti e automazioni per vendite, supporto e operations, dentro i vostri strumenti.">Agents and automations for sales, support and operations, built inside your tools.</p><div class="tags"><span data-it="Agenti">Agents</span><span data-it="Automazione">Automation</span></div><span class="go"><i>→</i><span data-it="Scopri di più">Learn more</span></span></a><a class="svc svc-c reveal" href="support-agent/"><span class="big-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 5h16v11H9l-5 4z"/><path d="M8 9.5h8M8 12.5h5"/></svg></span><span class="svc-num">03 · <span data-it="Agente per il customer support">Customer support agent</span></span><h3 data-it="Una chat di supporto che conosce la tua azienda.">A support chat that knows your business.</h3><p data-it="Risponde da documenti e policy, e passa a una persona quando serve.">Answers from your documents and policies, and hands over to a person when it should.</p><div class="tags"><span data-it="Chat sul sito">Website chat</span><span data-it="Passaggio">Handover</span></div><span class="go"><i>→</i><span data-it="Scopri di più">Learn more</span></span></a><a class="svc svc-d reveal" href="claude-for-architects/"><span class="big-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 21h18M5 21V10l7-5 7 5v11M9 21v-6h6v6"/></svg></span><span class="svc-num">04 · <span data-it="Claude mentorship per architetti">Claude mentorship for architects</span></span><h3 data-it="Claude mentorship per architetti.">Claude mentorship for architects.</h3><p data-it="Insegniamo agli studi di architettura a usare Claude su brief, regolamenti, relazioni e documentazione.">We teach architecture studios to use Claude on briefs, regulations, reports and documentation.</p><div class="tags"><span data-it="Mentorship">Mentorship</span><span data-it="Studi">Studios</span></div><span class="go"><i>→</i><span data-it="Scopri di più">Learn more</span></span></a><a class="svc svc-e reveal" href="claude-for-engineering/"><span class="big-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 2.8 20 7.4v9.2L12 21.2 4 16.6V7.4z"/><path d="M4 7.4 12 12l8-4.6M12 12v9.2"/></svg></span><span class="svc-num">05 · <span data-it="Claude mentorship per l’ingegneria 3D">Claude mentorship for 3D engineering</span></span><h3 data-it="Claude mentorship per l’ingegneria 3D.">Claude mentorship for 3D engineering.</h3><p data-it="Claude per script, dati, relazioni e controlli nei flussi 3D e strutturali.">Claude for scripts, data, reports and checks in 3D and structural workflows.</p><div class="tags"><span data-it="Mentorship">Mentorship</span><span data-it="3D · Strutturale">3D · Structural</span></div><span class="go"><i>→</i><span data-it="Scopri di più">Learn more</span></span></a></div></div></section><section class="section" id="approach"><div class="wrap"><div class="sec-head"><p class="kicker mono">02 — <span data-it="Come lavoriamo">How we work</span></p><h2 class="reveal"><span data-it="Troviamo dove serve l’AI,">We find where AI fits,</span> <em class="serif"><span data-it="la costruiamo, e restiamo.">build it, and stay.</span></em></h2><p class="lead reveal" data-it="Molte aziende sanno che l’AI potrebbe far risparmiare tempo e non sanno da dove partire. Guardiamo come lavora il team, scegliamo i compiti che vale la pena automatizzare e costruiamo ciò che li prende in carico.">Most companies know AI could save them time and don’t know where to start. We look at how your team works, pick the tasks worth automating, and build what takes them over.</p></div>
+<ol class="steps"><li class="reveal"><span class="num serif">01</span><h4 data-it="Mappa">Map</h4><p data-it="Trovare il lavoro che l’AI può prendere in carico.">Find the work AI can take over.</p></li><li class="reveal"><span class="num serif">02</span><h4 data-it="Costruisci">Build</h4><p data-it="Agenti, automazioni, pipeline.">Agents, automations, pipelines.</p></li><li class="reveal"><span class="num serif">03</span><h4 data-it="Integra">Integrate</h4><p data-it="Dentro gli strumenti che il team usa già.">Inside the tools your team already uses.</p></li><li class="reveal"><span class="num serif">04</span><h4 data-it="Misura">Measure</h4><p data-it="Misurare il tempo risparmiato e i risultati.">Track the time saved and the output.</p></li></ol><p class="steps-note mono reveal" data-it="Quello che misuriamo dopo il lancio decide cosa costruire o migliorare dopo.">What we measure after launch decides what gets built or improved next.</p>
+<div class="principles" style="margin-top:56px">
+<article class="card reveal"><p class="kicker mono">01</p><h3 data-it="Non vendiamo uno strumento.">We don’t sell a tool.</h3><p data-it="Guardiamo come lavorate, scegliamo cosa vale la pena automatizzare, lo costruiamo e restiamo finché il team lo usa davvero.">We look at how you work, choose what is worth automating, build it, and stay until your team actually uses it.</p></article>
+<article class="card reveal"><p class="kicker mono">02</p><h3 data-it="Nessun pacchetto fisso.">No fixed packages.</h3><p data-it="Ogni preventivo è costruito sulla tua azienda. Definiamo il lavoro insieme e mandiamo una proposta chiara: scope, tempistiche e prezzo fisso.">Every quote is built around your company. We scope the job with you and send one clear proposal: scope, timeline and a fixed price.</p></article>
+<article class="card reveal"><p class="kicker mono">03</p><h3 data-it="Resta tuo.">Yours to keep.</h3><p data-it="Documentiamo ciò che costruiamo e formiamo chi lo usa. Quello che costruiamo per la tua azienda resta alla tua azienda.">We document what we build and train the people who use it. What we build for your company stays with your company.</p></article>
+</div></div></section><section class="section" id="studio"><div class="wrap"><div class="sec-head"><p class="kicker mono">03 — <span data-it="Dallo studio">From the studio</span></p><h2 class="reveal"><span data-it="Il video è dove">Video is where</span> <em class="serif"><span data-it="andiamo più a fondo.">we go deepest.</span></em></h2><p class="lead reveal" data-it="Lavori recenti dell’Ads Studio, organizzati per stile visivo. Passa sopra o tocca per riprodurre.">Recent work from the Ads Studio, organised by visual style. Hover or tap to play.</p></div><div class="reels"><article class="reel reveal"><video muted loop playsinline preload="none" poster="assets/reel-clay.jpg" src="assets/reel-clay.mp4"></video><div class="reel-cap"><span class="mono">01</span><b data-it="Stile Pixar">Pixar style</b></div></article><article class="reel reveal"><video muted loop playsinline preload="none" poster="assets/ad-qga4.jpg" src="assets/ad-qga4.mp4"></video><div class="reel-cap"><span class="mono">02</span><b data-it="Explainer prodotto 3D">3D product explainer</b></div></article><article class="reel reveal"><video muted loop playsinline preload="none" poster="assets/ad-twin.jpg" src="assets/ad-twin.mp4"></video><div class="reel-cap"><span class="mono">03</span><b data-it="Storia di famiglia">Family story</b></div></article><article class="reel reveal"><video muted loop playsinline preload="none" poster="assets/reel-3d.jpg" src="assets/reel-3d.mp4"></video><div class="reel-cap"><span class="mono">04</span><b data-it="Claymation">Claymation</b></div></article></div>
+<div class="hero-ctas reveal" style="margin-top:32px"><a class="btn btn-ghost" href="ads/"><span data-it="Apri l’Ads Studio">Open the Ads Studio</span><svg viewBox="0 0 14 14" aria-hidden="true"><path d="M2 7h9M7.5 3.5 11 7l-3.5 3.5" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></a></div></div></section><section class="section contact" id="contact">
   <div class="wrap">
     <div class="offer reveal">
       <div class="offer-copy">
-        <p class="kicker mono" data-i18n="idea.k">Free, no strings</p>
-        <h2><span data-i18n="idea.t1">Send us your product.</span> <em class="serif" data-i18n="idea.t2">We'll send back an ad idea.</em></h2>
-        <p data-i18n="idea.p">Tell us what you sell and where you advertise. We reply with a concept for an animated ad built for your brand, and a time for a call if you want to make it.</p>
-        <ul class="ticks">
-          <li data-i18n="idea.l1">A hook and a scene, written for your product</li>
-          <li data-i18n="idea.l2">The visual style we'd use and why</li>
-          <li data-i18n="idea.l3">Reply within 1 business day</li>
-        </ul>
+        <p class="kicker mono" data-it="Contatti">Contact</p>
+        <h2><span data-it="Dicci cosa vorresti">Tell us what you’d like</span> <em class="serif"><span data-it="affidare all’AI.">AI to take over.</span></em></h2>
+        <p data-it="Scrivici della tua azienda e di cosa hai in mente: un agente AI, una chat di supporto, una mentorship o un video. Ti rispondiamo con un orario per una call.">Write to us about your company and what you have in mind: an AI agent, a support chat, a mentorship or a video. We’ll reply with a time for a call.</p>
+        <div class="contact-meta">
+          <div><span class="mono">Email</span><a href="mailto:hello@thinridge.com">hello@thinridge.com</a></div>
+          <div><span class="mono" data-it="Tempo di risposta">Response time</span><span data-it="Entro 1 giorno lavorativo">Within 1 business day</span></div>
+          <div><span class="mono" data-it="Studio">Studio</span><span data-it="Da remoto, in tutto il mondo">Remote, working worldwide</span></div>
+        </div>
       </div>
-      <form class="form" id="ideaForm" novalidate>
-        <label><span data-i18n="f.name">Name</span><input name="name" autocomplete="name" required /></label>
-        <label><span data-i18n="f.email">Email</span><input name="email" type="email" autocomplete="email" required /></label>
-        <label class="full"><span data-i18n="f.link">Store or website link</span><input name="link" type="url" placeholder="https://" /></label>
-        <label class="full"><span data-i18n="f.product">Which product should the ad sell?</span><input name="product" /></label>
-        <label class="full"><span data-i18n="f.budget">Monthly ad spend</span>
-          <select name="budget">
-            <option value="" data-i18n="f.b0">Select</option>
-            <option>&lt; €1k</option><option>€1k – €5k</option><option>€5k – €20k</option><option>€20k+</option>
-          </select>
-        </label>
-        <button class="btn btn-primary btn-lg full" type="submit"><span data-i18n="cta.idea">Get a free ad idea</span><svg viewBox="0 0 14 14" aria-hidden="true"><path d="M2 7h9M7.5 3.5 11 7l-3.5 3.5" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></button>
-        <p class="form-note mono full" id="formNote" data-i18n="f.note">Opens your email app with the details filled in. Or write to hello@thinridge.com</p>
+      <form class="form" data-mailto="Thinridge" novalidate>
+        <label><span data-it="Nome">Name</span><input name="name" autocomplete="name" required /></label>
+        <label><span>Email</span><input name="email" type="email" autocomplete="email" required /></label>
+        <label class="full"><span data-it="Azienda o studio">Company or studio</span><input name="company" autocomplete="organization" /></label>
+        <label class="full"><span data-it="Servizio">Service</span><select name="service"><option value="" data-it="Seleziona">Select</option><option value="Ads Studio" data-it="Ads Studio">Ads Studio</option><option value="AI Agents" data-it="AI Agents">AI Agents</option><option value="Customer support agent" data-it="Agente per il customer support">Customer support agent</option><option value="Claude mentorship for architects" data-it="Claude mentorship per architetti">Claude mentorship for architects</option><option value="Claude mentorship for 3D engineering" data-it="Claude mentorship per l’ingegneria 3D">Claude mentorship for 3D engineering</option><option value="Other" data-it="Altro">Other</option></select></label>
+        <label class="full"><span data-it="Cosa vorresti fare?">What would you like to do?</span><textarea name="message" rows="4"></textarea></label>
+        <button class="btn btn-primary btn-lg full" type="submit"><span data-it="Prenota una call">Book a call</span><svg viewBox="0 0 14 14" aria-hidden="true"><path d="M2 7h9M7.5 3.5 11 7l-3.5 3.5" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></button>
+        <p class="form-note mono full" data-it="Apre la tua app email con i dati già compilati. Oppure scrivi a hello@thinridge.com">Opens your email app with the details filled in. Or write to hello@thinridge.com</p>
       </form>
     </div>
   </div>
 </section>
-
-<!-- ================= PRICING / FAQ ================= -->
-<section class="section" id="pricing">
-  <div class="wrap two">
-    <div>
-      <p class="kicker mono">04 — <span data-i18n="nav.pricing">Pricing</span></p>
-      <h2 class="reveal"><span data-i18n="pr.t1">No price list.</span> <em class="serif" data-i18n="pr.t2">One fixed proposal.</em></h2>
-      <p class="lead reveal" data-i18n="pr.p">Every quote is built around your company: the work itself, how your company runs, and the volume and timing you need. After a first call we send one document with scope, timeline and a fixed price.</p>
-      <a class="btn btn-ghost reveal" href="mailto:hello@thinridge.com?subject=Quote%20request" data-i18n="cta.quote">Ask for a quote</a>
-    </div>
-    <div class="faq">
-      <details class="reveal" open><summary data-i18n="q1">Why don't you show prices?</summary><p data-i18n="a1">Because two companies rarely need the same thing. A fixed list would either overcharge the simple cases or underestimate the complex ones. You get a price after we understand the job.</p></details>
-      <details class="reveal"><summary data-i18n="q2">How fast can you deliver?</summary><p data-i18n="a2">It depends on the scope. Most short-form video ads ship in 3 to 7 business days from the approved storyboard; larger projects follow a timeline agreed in the proposal.</p></details>
-      <details class="reveal"><summary data-i18n="q3">Do I own what you deliver?</summary><p data-i18n="a3">Yes. Final videos and images are yours to use across paid ads, social and your own channels.</p></details>
-      <details class="reveal"><summary data-i18n="q4">Which AI tools do you use?</summary><p data-i18n="a4">We work with the latest AI video tools, including Kling, Veo, Seedance, Runway, Sora and Pika, combined with creative direction, scene design and careful editing.</p></details>
-    </div>
-  </div>
-</section>
-
-<!-- ================= FINAL CTA ================= -->
-<section class="final">
-  <div class="final-bg" aria-hidden="true"><div class="glow g1"></div><div class="glow g2"></div></div>
-  <div class="wrap center">
-    <h2 class="reveal"><span data-i18n="fin.t1">Your next winning ad</span><br/><em class="serif" data-i18n="fin.t2">starts with one idea.</em></h2>
-    <div class="hero-ctas center reveal">
-      <a class="btn btn-primary btn-lg" href="#idea" data-i18n="cta.idea">Get a free ad idea</a>
-      <a class="btn btn-ghost btn-lg" id="bookCall" href="mailto:hello@thinridge.com?subject=Book%20a%20call" data-i18n="cta.call">Book a call</a>
-    </div>
-  </div>
-</section>
-</main>
-
-<footer class="footer">
+</main><footer class="footer">
   <div class="wrap foot-grid">
     <div>
-      <a class="brand" href="#top"><img src="assets/mark-white.png" alt="" width="34" height="19" /><span>Thinridge</span></a>
-      <p class="muted" data-i18n="foot.tag">AI animated video ads and static ads, with a studio built for video.</p>
+      <a class="brand" href=""><img src="assets/mark-white.png" alt="" width="34" height="19" /><span>Thinridge</span></a>
+      <p class="muted" data-it="Mettiamo l’AI al lavoro dentro le aziende: agenti, mentorship su Claude e uno studio fatto per il video.">AI, put to work inside companies: agents, Claude mentorship and a studio built for video.</p>
     </div>
-    <div><p class="mono muted" data-i18n="foot.nav">Navigate</p><a href="#work" data-i18n="nav.work">Work</a><a href="#services" data-i18n="nav.services">Services</a><a href="#process" data-i18n="nav.process">Process</a><a href="#pricing" data-i18n="nav.pricing">Pricing</a></div>
-    <div><p class="mono muted" data-i18n="foot.contact">Contact</p><a href="mailto:hello@thinridge.com">hello@thinridge.com</a><span class="muted" data-i18n="foot.remote">Remote, working worldwide</span></div>
+    <div><p class="mono muted" data-it="Servizi">Services</p><a href="ads/" data-it="Ads Studio">Ads Studio</a><a href="ai-agents/" data-it="AI Agents">AI Agents</a><a href="support-agent/" data-it="Agente per il customer support">Customer support agent</a><a href="claude-for-architects/" data-it="Claude mentorship per architetti">Claude mentorship for architects</a><a href="claude-for-engineering/" data-it="Claude mentorship per l’ingegneria 3D">Claude mentorship for 3D engineering</a></div>
+    <div><p class="mono muted" data-it="Contatti">Contact</p><a href="mailto:hello@thinridge.com">hello@thinridge.com</a><span class="muted" data-it="Da remoto, in tutto il mondo">Remote, working worldwide</span></div>
   </div>
   <div class="wordmark" aria-hidden="true">Thinridge</div>
-  <div class="wrap foot-bottom mono muted"><span>© 2026 Thinridge. <span data-i18n="foot.rights">All rights reserved.</span></span><a href="#top" data-i18n="foot.top">Back to top ↑</a></div>
+  <div class="wrap foot-bottom mono muted"><span>© 2026 Thinridge. <span data-it="Tutti i diritti riservati.">All rights reserved.</span></span><a href="#top" data-it="Torna su ↑">Back to top ↑</a></div>
 </footer>
-
 <script src="main.js" defer></script>
 </body>
 </html>
